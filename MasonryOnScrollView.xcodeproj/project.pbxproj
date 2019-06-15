@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D191178E3AEA3A956B5F42B /* libPods-MasonryOnScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B869FD0E1080A36522AC480E /* libPods-MasonryOnScrollView.a */; };
+		5BBE43D722B4C83200237F18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE43D622B4C83200237F18 /* AppDelegate.m */; };
+		5BBE43DA22B4C83200237F18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE43D922B4C83200237F18 /* ViewController.m */; };
+		5BBE43DD22B4C83200237F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE43DB22B4C83200237F18 /* Main.storyboard */; };
+		5BBE43DF22B4C83300237F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE43DE22B4C83300237F18 /* Assets.xcassets */; };
+		5BBE43E222B4C83300237F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE43E022B4C83300237F18 /* LaunchScreen.storyboard */; };
+		5BBE43E522B4C83300237F18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBE43E422B4C83300237F18 /* main.m */; };
+		5BBE43EC22B4E6C000237F18 /* Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE43EB22B4E6C000237F18 /* Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15E34BAA1B0C8DA9895DD6F1 /* Pods-MasonryOnScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryOnScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryOnScrollView/Pods-MasonryOnScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		5BBE43D222B4C83200237F18 /* MasonryOnScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryOnScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBE43D522B4C83200237F18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BBE43D622B4C83200237F18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BBE43D822B4C83200237F18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BBE43D922B4C83200237F18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BBE43DC22B4C83200237F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BBE43DE22B4C83300237F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BBE43E122B4C83300237F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BBE43E322B4C83300237F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBE43E422B4C83300237F18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BBE43EB22B4E6C000237F18 /* Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png"; sourceTree = "<group>"; };
+		B869FD0E1080A36522AC480E /* libPods-MasonryOnScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryOnScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ACA7526105707C1FEF4643 /* Pods-MasonryOnScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryOnScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryOnScrollView/Pods-MasonryOnScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBE43CF22B4C83200237F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D191178E3AEA3A956B5F42B /* libPods-MasonryOnScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BBE43C922B4C83200237F18 = {
+			isa = PBXGroup;
+			children = (
+				5BBE43D422B4C83200237F18 /* MasonryOnScrollView */,
+				5BBE43D322B4C83200237F18 /* Products */,
+				D31951EDC0C29AC5840A2FF7 /* Pods */,
+				F25ADAE9ACFF54A196D7EC7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBE43D322B4C83200237F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBE43D222B4C83200237F18 /* MasonryOnScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBE43D422B4C83200237F18 /* MasonryOnScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5BBE43EB22B4E6C000237F18 /* Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png */,
+				5BBE43D522B4C83200237F18 /* AppDelegate.h */,
+				5BBE43D622B4C83200237F18 /* AppDelegate.m */,
+				5BBE43D822B4C83200237F18 /* ViewController.h */,
+				5BBE43D922B4C83200237F18 /* ViewController.m */,
+				5BBE43DB22B4C83200237F18 /* Main.storyboard */,
+				5BBE43DE22B4C83300237F18 /* Assets.xcassets */,
+				5BBE43E022B4C83300237F18 /* LaunchScreen.storyboard */,
+				5BBE43E322B4C83300237F18 /* Info.plist */,
+				5BBE43E422B4C83300237F18 /* main.m */,
+			);
+			path = MasonryOnScrollView;
+			sourceTree = "<group>";
+		};
+		D31951EDC0C29AC5840A2FF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15E34BAA1B0C8DA9895DD6F1 /* Pods-MasonryOnScrollView.debug.xcconfig */,
+				C0ACA7526105707C1FEF4643 /* Pods-MasonryOnScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F25ADAE9ACFF54A196D7EC7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B869FD0E1080A36522AC480E /* libPods-MasonryOnScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBE43D122B4C83200237F18 /* MasonryOnScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBE43E822B4C83300237F18 /* Build configuration list for PBXNativeTarget "MasonryOnScrollView" */;
+			buildPhases = (
+				46D1F382660F0C9DFDCCFD13 /* [CP] Check Pods Manifest.lock */,
+				5BBE43CE22B4C83200237F18 /* Sources */,
+				5BBE43CF22B4C83200237F18 /* Frameworks */,
+				5BBE43D022B4C83200237F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonryOnScrollView;
+			productName = MasonryOnScrollView;
+			productReference = 5BBE43D222B4C83200237F18 /* MasonryOnScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBE43CA22B4C83200237F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "游辉";
+				TargetAttributes = {
+					5BBE43D122B4C83200237F18 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 5BBE43CD22B4C83200237F18 /* Build configuration list for PBXProject "MasonryOnScrollView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBE43C922B4C83200237F18;
+			productRefGroup = 5BBE43D322B4C83200237F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBE43D122B4C83200237F18 /* MasonryOnScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBE43D022B4C83200237F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBE43E222B4C83300237F18 /* LaunchScreen.storyboard in Resources */,
+				5BBE43DF22B4C83300237F18 /* Assets.xcassets in Resources */,
+				5BBE43DD22B4C83200237F18 /* Main.storyboard in Resources */,
+				5BBE43EC22B4E6C000237F18 /* Simulator Screen Shot - iPhone Xʀ - 2019-06-15 at 16.40.14.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46D1F382660F0C9DFDCCFD13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasonryOnScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBE43CE22B4C83200237F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBE43DA22B4C83200237F18 /* ViewController.m in Sources */,
+				5BBE43E522B4C83300237F18 /* main.m in Sources */,
+				5BBE43D722B4C83200237F18 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BBE43DB22B4C83200237F18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBE43DC22B4C83200237F18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BBE43E022B4C83300237F18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBE43E122B4C83300237F18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BBE43E622B4C83300237F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BBE43E722B4C83300237F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BBE43E922B4C83300237F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E34BAA1B0C8DA9895DD6F1 /* Pods-MasonryOnScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5986KZQ9G;
+				INFOPLIST_FILE = MasonryOnScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MasonryOnScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BBE43EA22B4C83300237F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0ACA7526105707C1FEF4643 /* Pods-MasonryOnScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5986KZQ9G;
+				INFOPLIST_FILE = MasonryOnScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.MasonryOnScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBE43CD22B4C83200237F18 /* Build configuration list for PBXProject "MasonryOnScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBE43E622B4C83300237F18 /* Debug */,
+				5BBE43E722B4C83300237F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBE43E822B4C83300237F18 /* Build configuration list for PBXNativeTarget "MasonryOnScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBE43E922B4C83300237F18 /* Debug */,
+				5BBE43EA22B4C83300237F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BBE43CA22B4C83200237F18 /* Project object */;
+}
